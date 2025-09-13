@@ -1,0 +1,62 @@
+
+# Environment files
+env/.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker volumes and data
+mysql-data/
+docker-compose.override.yml
+
+# Logs
+logs/*.log
+logs/**/*.log
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Project specific files
+public/vendor/
+src/vendor/
+composer.phar
+composer.lock
+
+# PHP specific
+*.cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm/
+.yarn/
+
+# Build artifacts
+build/
+dist/
+.build/
+
+# Backup files
+*.bak
+*.backup
+*.old
